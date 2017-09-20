@@ -21,7 +21,7 @@ section {
     display: inline-block;
     width:60%;
     height:120px;
-    border: 1px solid red;
+    border: 1px solid black;
     padding: 20 20 0 20;
     vertical-align: top;
 }
@@ -36,7 +36,7 @@ aside#left-side {
 aside#right-side {
     display: inline-block;
     width:100%;
-    border: 1px solid blue;
+    /*border: 1px solid orange;*/
     align: "right"
 }
 
@@ -92,6 +92,12 @@ img.rickdance {
     margin: 0 auto;   
 }
 
+img.rickdance-2 {
+    height: 50%;
+    display:inline-block;
+    margin: 20 100;   
+}
+
 div#div-rickdance {
     text-align: center;
 }
@@ -101,4 +107,10 @@ iframe {
     margin: 0 auto;	
     height: 500;
     width:100%;
+}
+
+#div-ramble {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto; 
 }
