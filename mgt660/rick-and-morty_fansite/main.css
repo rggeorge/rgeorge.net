@@ -9,8 +9,9 @@ body {
     width: 100%; /*Optional*/
     table-layout: fixed; /*Optional*/
     border-spacing: 10px; /*Optional*/
+    vertical-align: top;
 }
-.Column
+.column
 {
     display: table-cell;
     /*background-color: red; /*Optional*/
@@ -21,13 +22,15 @@ section {
     width:60%;
     height:120px;
     border: 1px solid red;
+    padding: 20 20 0 20;
+    vertical-align: top;
 }
 
 aside#left-side {
     display: inline-block;
     width:100%;
-    height:160px;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
+    align: "left"
 }
 
 aside#right-side {
@@ -62,6 +65,11 @@ h3 {
 p {
 	color: gray;
 	font-family: fantasy;
+    vertical-align: top;
+}
+
+p.center {
+    text-align: center;
 }
 
 #img-main {
@@ -72,4 +80,25 @@ p {
 img.img-cent {
 	display: block;
     margin: 0 auto;
+}
+
+img.sidebar {
+    width: 100%
+}
+
+img.rickdance {
+    height: 50%;
+    display:inline-block;
+    margin: 0 auto;   
+}
+
+div#div-rickdance {
+    text-align: center;
+}
+
+iframe {
+	display: block;
+    margin: 0 auto;	
+    height: 500;
+    width:100%;
 }
