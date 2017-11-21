@@ -1548,6 +1548,12 @@
 
 	}
 
+	.slides_center {
+		display: block;
+		margin: 0 0 2em 0;	
+		width: 30%
+	}
+
 /* Basic */
 
 	body {
